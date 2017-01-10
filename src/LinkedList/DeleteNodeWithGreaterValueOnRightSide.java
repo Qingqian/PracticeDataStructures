@@ -1,6 +1,10 @@
 package LinkedList;
 
 import java.util.ArrayList;
+/**
+ * 	Question: http://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side/
+ * 	Author : vzhao
+ * */
 
 public class DeleteNodeWithGreaterValueOnRightSide {
 	public ListNode deleteNodes(ListNode head) {
