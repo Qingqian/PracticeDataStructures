@@ -15,7 +15,7 @@ import java.util.EmptyStackException;
  * 	1. topOfStack[] -- stores the index of the top element in each stack
  * 	2. stackData[]  -- stores the actual data in the single array
  * 	3. nextIndex[]  -- If there is no value set at a specific index, it stores the next available index in the stackData[]
- * 					-- If value has already been set at a specific index, it stores the previous index, which will be used in pop operation
+ * 			-- If value has already been set at a specific index, it stores the previous index, which will be used in pop operation
  */
 public class KStacksInSingleArray {
 	// Space complexity is O(n + k)
